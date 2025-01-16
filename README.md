@@ -1,6 +1,6 @@
 # k8s
 
-#Kube Architechture
+# Kube Architechture
  
 # Worker node (Data Plane)
 
