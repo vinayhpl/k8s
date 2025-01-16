@@ -2,9 +2,9 @@
  
 # Worker node (Data Plane)
 
-kubelet
-Kube-proxy
-container run time
+kubelet 
+Kube-proxy 
+container run time  
 
 # Kube Master (Control Plane)
 
