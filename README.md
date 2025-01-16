@@ -8,8 +8,8 @@ container run time
 
 # Kube Master (Control Plane)
 
-API server
-sceduler
-etcd
-controller manager
-cloud controller manager
+API server   
+sceduler    
+etcd    
+controller manager    
+cloud controller manager    
