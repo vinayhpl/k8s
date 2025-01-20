@@ -14,7 +14,7 @@ container run time
 # Kube Master (Control Plane)
 
 # API server
-Its a Kube master or control plane communication component which exposes REST API to communicate between control plane and data plane.
+Its a communication component in Kube master or control plane  which exposes REST API to communicate between control plane and data plane.
 Control Plane Components such as
  
 sceduler    
