@@ -13,7 +13,7 @@ container run time
 
 # Kube Master (Control Plane)
 
-# API server
+## API server
 Its a communication component in Kube master or control plane which exposes REST API to communicate between control plane and data plane.
 
 Other components that which uses API server to communicate.
@@ -26,7 +26,11 @@ Examples of controllers that interact with the API Server:
    * Replication Controller ensures correct pod replicas.
    * Endpoints Controller manages service endpoints.
 
-# kube-scheduler
+**kube-scheduler** 
+* check the unscheduled pods through API server.
+* Picks the node for pod deploy and send back information to API server.
+
+
 etcd    
 controller manager    
 cloud controller manager    
