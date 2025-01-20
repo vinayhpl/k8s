@@ -17,7 +17,7 @@ container run time
 Its a communication component in Kube master or control plane  which exposes REST API to communicate between control plane and data plane.
 Control Plane Components such as
  
-sceduler    
+scheduler    
 etcd    
 controller manager    
 cloud controller manager    
