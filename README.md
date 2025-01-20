@@ -31,7 +31,7 @@ Examples of controllers that interact with the API Server:
 * Picks the node for pod deploy and send back information to API server about node.
 
 **etcd (Key-Value Store)** 
-* API Server is the only component that directly interacts with etcd(because both exists on same plane) and Stores all cluster state data of pods, nodes, deployments, configs.
+* API Server is the only component that directly interacts with etcd(because both exists on same plane) and Stores all cluster state data of pods, nodes, deployments, configs(as every communication happens through API Server).
 
 etcd    
 controller manager    
