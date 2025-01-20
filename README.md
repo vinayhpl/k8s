@@ -20,6 +20,7 @@
 |            (Containers) (Containers) (Containers)  |
 +----------------------------------------------------+
 
+![image](https://github.com/user-attachments/assets/78a25a5b-a4dd-4972-bd9e-e300cf2db547)
 
 
 # Worker node (Data Plane)
