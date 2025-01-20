@@ -18,8 +18,8 @@ Its a communication component in Kube master or control plane which exposes REST
 
 Other components that which uses API server to communicate.
 
-# In Control Plane
-##### kube-controller-manager uses the API Server to monitor and update cluster state.
+## In Control Plane
+**kube-controller-manager** uses the API Server to monitor and update cluster state.
 
 Examples of controllers that interact with the API Server:
    * Node Controller checks node health.   
@@ -48,6 +48,7 @@ cloud controller manager
 |               |---|       |---|       |---|        |
 |            (Containers) (Containers) (Containers)  |
 +----------------------------------------------------+
+
 
 
 
