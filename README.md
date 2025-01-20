@@ -16,10 +16,15 @@ container run time
 # API server
 Its a communication component in Kube master or control plane which exposes REST API to communicate between control plane and data plane.
 
-What communication happens between control plane and data plane.
+Other components that which uses API server to communicate.
 
-Control Plane Components such as
- 
+# In Control Plane
+kube-controller-manager uses the API Server to monitor and update cluster state.
+
+Examples of controllers that interact with the API Server:
+   * Node Controller (checks node health)
+Replication Controller (ensures correct pod replicas)
+Endpoints Controller (manages service endpoints)
 scheduler    
 etcd    
 controller manager    
