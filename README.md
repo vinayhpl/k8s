@@ -22,9 +22,9 @@ Other components that which uses API server to communicate.
 kube-controller-manager uses the API Server to monitor and update cluster state.
 
 Examples of controllers that interact with the API Server:
-   * Node Controller (checks node health)
-Replication Controller (ensures correct pod replicas)
-Endpoints Controller (manages service endpoints)
+   * Node Controller (checks node health)   
+   * Replication Controller (ensures correct pod replicas)  
+   * Endpoints Controller (manages service endpoints)
 scheduler    
 etcd    
 controller manager    
