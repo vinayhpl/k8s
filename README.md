@@ -15,6 +15,9 @@ container run time
 
 # API server
 Its a communication component in Kube master or control plane which exposes REST API to communicate between control plane and data plane.
+
+What communication happens between control plane and data plane.
+
 Control Plane Components such as
  
 scheduler    
