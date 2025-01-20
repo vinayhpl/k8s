@@ -8,14 +8,15 @@
 # Worker node (Data Plane)
 
 kubelet (kube-apiserver)
-component that integrates between master and data plane
 Kube-proxy   
 container run time    
 
 # Kube Master (Control Plane)
 
 API server 
-Its a heart of kubernetes communication in control plane or kube master 
+Its a Kube master or control plane communication component which exposes REST API to communicate between control plane and data plane.
+Control Plane Components such as  
+ 
 sceduler    
 etcd    
 controller manager    
