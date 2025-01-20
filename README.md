@@ -20,7 +20,8 @@
 |            (Containers) (Containers) (Containers)  |
 +----------------------------------------------------+
 
- 
+
+
 # Worker node (Data Plane)
 
 kubelet (kube-apiserver)
