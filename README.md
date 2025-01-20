@@ -25,7 +25,8 @@ Examples of controllers that interact with the API Server:
    * Node Controller (checks node health)   
    * Replication Controller (ensures correct pod replicas)  
    * Endpoints Controller (manages service endpoints)
-scheduler    
+
+# kube-scheduler
 etcd    
 controller manager    
 cloud controller manager    
