@@ -27,9 +27,11 @@ Examples of controllers that interact with the API Server:
    * Endpoints Controller manages service endpoints.
 
 **kube-scheduler** 
-* check the unscheduled pods through API server.
+* checks the unscheduled pods through API server.
 * Picks the node for pod deploy and send back information to API server about node.
 
+**etcd (Key-Value Store)** 
+* API Server is the only component(because both exists on same plane) and Stores all cluster state data of pods, nodes, deployments, configs.
 
 etcd    
 controller manager    
