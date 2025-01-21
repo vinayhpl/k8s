@@ -7,7 +7,7 @@
 
 # Worker node (Data Plane)
 
-kubelet (kube-apiserver)   
+kubelet   
 Kube-proxy     
 container run time      
 
@@ -18,7 +18,7 @@ Its a communication component in Kube master or control plane which exposes REST
 
 Other components which uses API server to communicate.
 
-## In Control Plane
+## Componenets use API Server In Control Plane
 **kube-controller-manager** uses the API Server to monitor and update cluster state.
 
 Examples of controllers that interact with the API Server:
@@ -33,7 +33,13 @@ Examples of controllers that interact with the API Server:
 **etcd (Key-Value Store)** 
 * API Server is the only component that directly interacts with etcd(because both exists on same plane) and Stores all cluster state data of pods, nodes, deployments, configs(as every communication happens through API Server).
     
+## Componenets use API Server In Data Plane
 
+**Kubelet** 
+ * The Kubelet periodically fetches pod specifications from the API Server to ensure that the desired state of the cluster matches the actual state on the worker node to apply configuration changes as needed. (Recover from failures automatically, Handle scaling and updates dynamically, Efficient Resource Allocation etc etc) .
+ * Reports node health & status back to the API Server.
+
+  
 +----------------------------------------------------+
 |                     Control Plane                  |   
 | -------------------------------------------------- |
